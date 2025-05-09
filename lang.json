@@ -1,0 +1,36 @@
+{
+  "de": {
+    "title": "Spy Game",
+    "language": "Sprache",
+    "rounds": "Runden",
+    "reset_score": "Punktestand zurücksetzen",
+    "download_app": "App herunterladen",
+    "player_count": "Anzahl der Spieler",
+    "start_game": "Spiel starten",
+    "discussion": "Diskussion: Wer ist der Spion?",
+    "vote": "Abstimmen",
+    "spy_is": "Der Spion war",
+    "word_was": "Das Wort war",
+    "new_round": "Neue Runde starten",
+    "score": "Punktestand",
+    "you_are_spy": "Du bist der Spion!",
+    "your_word_is": "Dein Wort ist"
+  },
+  "en": {
+    "title": "Spy Game",
+    "language": "Language",
+    "rounds": "Rounds",
+    "reset_score": "Reset Score",
+    "download_app": "Download App",
+    "player_count": "Number of Players",
+    "start_game": "Start Game",
+    "discussion": "Discussion: Who is the spy?",
+    "vote": "Vote",
+    "spy_is": "The spy was",
+    "word_was": "The word was",
+    "new_round": "Start New Round",
+    "score": "Score",
+    "you_are_spy": "You are the spy!",
+    "your_word_is": "Your word is"
+  }
+}
