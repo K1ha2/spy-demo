@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2d2d2d" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/icons/icon-192.png" />
+  <title>Spy Game</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1 id="game-title">Spy Game</h1>
+      <button id="settings-btn">⚙️</button>
+      <button id="help-btn">?</button>
+    </header>
+
+    <main id="game-container">
+      <!-- Dynamic content (setup, game, voting, scoreboard) will be inserted here -->
+    </main>
+
+    <footer>
+      <p id="round-info"></p>
+    </footer>
+  </div>
+
+  <!-- Modals -->
+  <div id="modal-overlay" class="hidden">
+    <div id="modal-box">
+      <span id="modal-close">×</span>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="lang.json" type="application/json"></script>
+  <script src="settings.js"></script>
+  <script src="help.js"></script>
+  <script src="modal.js"></script>
+  <script src="main.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+</body>
+</html>
